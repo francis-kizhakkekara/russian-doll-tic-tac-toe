@@ -1,0 +1,19 @@
+.lvl-chooser {
+  @apply rounded bg-stone-800 py-0 px-4 mb-2;
+}
+
+.lvl-chooser > button {
+  @apply rounded px-4 py-2 m-2 font-bold;
+}
+
+.lvl-selectable {
+  @apply bg-purple-400 hover:bg-purple-500;
+}
+
+.lvl-selected {
+  @apply bg-purple-600 hover:bg-purple-700;
+}
+
+.lvl-unselectable {
+  @apply bg-stone-700;
+}

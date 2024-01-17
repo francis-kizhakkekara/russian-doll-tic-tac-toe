@@ -1,0 +1,11 @@
+.ttt-mode {
+  @apply rounded bg-stone-800 py-0 px-4 mb-2;
+}
+
+.ttt-mode > button {
+  @apply hover:bg-stone-500 rounded px-4 py-2 m-2 font-bold;
+}
+
+.ttt-selected {
+  @apply bg-stone-700 hover:bg-stone-600;
+}

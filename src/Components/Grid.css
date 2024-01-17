@@ -1,0 +1,37 @@
+.my-grid {
+  @apply h-40 w-40 bg-gray-400 text-black grid grid-cols-3 grid-rows-3 justify-items-center rounded-md text-center;
+  /* width: 70vw; */
+
+  width: min(calc(95vh - 200px), 80vw);
+  min-width: 250px;
+  height: min(calc(95vh - 200px), 80vw);
+  min-height: 250px;
+}
+
+.my-cell {
+  @apply border-2 border-black rounded-md bg-yellow-50;
+  align-self: center;
+  width: 90%;
+  height: 90%;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .my-grid > img {
+  height: 20px;
+  width: 20px;
+} */
+
+.doll-md {
+  height: 70%;
+}
+
+.doll-sm {
+  height: 40%;
+}
+
+.doll-lg {
+  height: 100%;
+}
